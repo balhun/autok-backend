@@ -3,7 +3,7 @@ import cors from "cors";
 import fs from "fs";
 import { error } from "console";
 
-let autok = [];
+let autok = [id:1, tipus:"Skoda 110", suly:500, loero:100];
 let nextId = 0;
 
 fs.readFile("autok.csv", "utf-8", (error, data) => {
